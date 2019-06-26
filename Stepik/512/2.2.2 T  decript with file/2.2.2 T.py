@@ -1,0 +1,1 @@
+from simplecpt import encrypt, decrypt

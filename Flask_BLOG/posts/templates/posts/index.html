@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    blueprint index
+{% endblock %}
+
+{% block content_title %}
+    Posts
+{% endblock %}
+
+{% block content %}
+    {%  for post in posts %}
+          <p>
+          {{ post.title }}
+          </p>
+{% endblock %}
